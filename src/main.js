@@ -27,7 +27,13 @@ const getProps = (name) => {
   };
 
   const perTemplate = {
-    nav: {},
+    nav: {
+      menuItems: [
+        { tittle: 'Google', href: 'https://www.google.com' },
+        { tittle: 'YouTube', href: 'https://www.youtube.com' },
+        { tittle: 'Vite', href: 'https://vite.dev' },
+      ],
+    },
     header: {},
     main: {},
     footer: {},
